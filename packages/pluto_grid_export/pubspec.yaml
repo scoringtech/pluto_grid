@@ -13,7 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   pluto_grid:
-    path: ../..
+    git:
+      url: ssh://git@github.com/scoringtech/pluto_grid.git
+      ref: 3a2e74190d3d4bc85f82de2793f97d533aea7dbc
   csv: ^5.0.1
   pdf: ^3.10.3
   printing: ^5.10.4
